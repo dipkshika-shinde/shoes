@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+    display: flex;
+}
+
+.box{
+    width: 30vw;
+    height: 70vh;
+    /* background-color: blue; */
+    margin: 20px;
+}
+
+
+.upper{
+    width: 100%;
+    height: 80%;
+    /* background-color: blueviolet; */
+    background-image: url(shoes1.png);
+    background-size: 100%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.second{
+    background-image: url(shoes2.png);
+}
+
+.third{
+    background-image: url(shoes3.png);
+}
+
+.forth{
+    background-image: url(shoes4.png);
+}
+
+.lower{
+    width:100%;
+    height: 20%;
+    /* background-color: yellow; */
+    padding: 10px;
+}
+
+.lower h3{
+    font-size:"18px";
+    font-weight: 700;
+}
+
+.lower p{
+    font-weight: 500;
+}
